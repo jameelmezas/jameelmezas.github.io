@@ -27,6 +27,16 @@
 }
 
 
+.active{
+    color: rgb(236, 191, 10) !important;
+}
+
+
+.nav-link:hover{
+    color: rgb(236, 191, 10);
+}
+
+
 .btn_navbar{
     display: inline-block;
     padding: 11px 39px;
@@ -38,6 +48,12 @@
     border: 1px solid rgb(236, 191, 10);
     border-radius: 40px;
     margin: -2px 14px;
+    transition: 0.2s ease-in;
+}
+
+
+.btn_navbar:hover{
+    background-color: rgb(252, 203, 9);
 }
 
 .home{
@@ -46,6 +62,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.564);
 }
 
 
@@ -85,4 +103,43 @@
     font-weight: 500;
     color: rgba(46, 46, 46, 0.806);
     margin-top: -13px;
+}
+
+
+.img_home{
+    width: 620px;
+}
+
+
+.btn_home{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(46, 45, 45);
+    padding: 12px 32px;
+    border-radius: 50px;
+    color: white;
+    margin: 28px 4px;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+}
+
+
+.btn_home:hover{
+    background-color: rgb(21, 20, 20);
+}
+
+
+.btn-2{
+    background-color: rgb(253, 68, 68);
+}
+
+
+.icon_social{
+    font-size: 17px;
+    padding: 12px 14px;
+    color: rgb(255, 158, 31);
+    border: 2px solid rgb(236, 191, 10);
+    border-radius: 30px;
+    margin: 0px 4px;
+    cursor: pointer;
 }

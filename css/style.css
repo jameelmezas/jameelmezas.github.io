@@ -282,3 +282,70 @@
 .btn_about:hover{
     color: white;
 }
+
+
+.project{
+    width: 100%;
+    height: 100vh;
+}
+
+.headings{
+    text-align: center;
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #ed0000;
+    background: linear-gradient(to right, #ed0000 42% , #6850de 58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+
+.headings::after{
+    content:'';
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 3px;
+    background-color: red;
+}
+
+
+.para_projects{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.582);
+    line-height: 29px;
+    max-width: 680px;
+    margin: 29px auto;
+}
+
+
+
+.project_container{
+    padding: 37px 0px;
+}
+
+
+.content_projects{
+    display: flex;
+}
+
+
+.icon_project{
+    margin: 0px 24px;
+}
+
+
+.project_icons{
+    font-size: 25px;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: ;
+}

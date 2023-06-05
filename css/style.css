@@ -423,3 +423,19 @@
     color: white;
     border-radius: 50px;
 }
+
+
+.testimonial{
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+}
+
+
+.heading_testimonial{
+    font-size: 36px;
+    margin: 14px 0px;
+    text-align: center;
+    font-weight: 400;
+
+}

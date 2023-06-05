@@ -439,3 +439,30 @@
     font-weight: 400;
 
 }
+
+
+.testimonial_container{
+    padding: 23px 0px;
+    margin: 52px 0px;
+}
+
+
+.img_testimonial{
+    width: 420px;
+    height: 320px;
+}
+
+
+.para_testimonial{
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.614);
+}
+
+
+.image_profile{
+    width: 66px;
+    
+}

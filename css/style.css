@@ -426,9 +426,10 @@
 
 
 .testimonial{
-    width: 70%;
-    height: 100vh;
+    width: 60%;
+    height: 74vh;
     margin: auto;
+    position: relative;
 }
 
 
@@ -461,8 +462,52 @@
     color: rgba(0, 0, 0, 0.614);
 }
 
+.profile_testimonial{
+    margin: 20px 0px;
+    display: flex;
+}
+
 
 .image_profile{
     width: 66px;
+    height: 66px;
+    border-radius: 50%;
     
+}
+
+
+.clients_testimonial{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.clients_testimonial p{
+    padding: 0px;
+    margin: 0px 11px;
+}
+
+
+.name{
+    font-size: 19px;
+    font-weight: 600;
+    margin: 3px 0px;
+    color: black;
+}
+
+
+.Profession{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.598);
+}
+
+
+.carousel-indicators{
+    position: absolute;
+    bottom: -87px;
+
+    [data-bs-target] {
+        background-color: rgb(255, 0, 0);
+    }
 }

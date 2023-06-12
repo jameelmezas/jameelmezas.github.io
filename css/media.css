@@ -1,0 +1,53 @@
+@media (max-width:1360px){
+    .img_about{
+        width: 480px;
+    }
+
+    .testimonial{
+        width: 80%;
+    }
+
+
+    .blogs{
+        width: 90%;
+    }
+
+    .heading_lg{
+        font-size: 70px;
+    }
+}
+
+
+
+@media (max-width:992px){
+    .navbar-toggler{
+        background-color: white;
+        border: none;
+    }
+
+    .img_home{
+        display: none;
+    }
+
+
+    .heading_lg{
+        font-size: 94px;
+    }
+
+
+    .heading_lg , .heading_sm , .heading_md , .social_links , .links_home{
+        text-align: center;
+    }
+
+
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .navbar-nav .nav-item{
+        margin: 6px 0;
+    }
+}

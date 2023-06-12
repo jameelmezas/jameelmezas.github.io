@@ -160,7 +160,7 @@
 
 
 .img_about{
-    width: 490px;
+ 
 }
 
 
@@ -521,6 +521,24 @@
     margin: 4px 12px ;
     margin-top: 20px;
 }
+
+
+.heading_content_blog{
+    font-size: 21px;
+    line-height: 34px;
+    margin: 6px 12px;
+    color: rgba(0, 0, 0, 0.621);
+}
+
+
+.para_blogs{
+    font-size: 13px;
+    margin: 2px 12px;
+    color: rgba(0, 0, 0, 0.47);
+    font-weight: 400;
+}
+
+
 
 
 footer{
